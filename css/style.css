@@ -1,57 +1,79 @@
 * {
-   box-sizing: border-box; /*Визначає блокову модель*/
-   padding: 0;
-   margin: 0;
+   box-sizing: border-box;
 }
 
 html,
 body {
    min-height: 100vh;
-   font-style: 16px;
-   background: linear-gradient(#f1f4f5, #7a9c9e);
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   min-width: 1440px;
+   font-family: "Jost", sans-serif;
+   color: #333333;
 }
 
-.main {
-   max-width: 1040px;
-   margin: 0 auto;
+.header_logo {
+   display: block;
+   width: 130px;
+   padding: 41px 0;
 }
 
-.section_title {
-   width: 600px;
-   font-size: 1.4em;
-   color: #126a88;
-   padding: 30px;
-   border: 3px solid #2a8d9e;
-   background: aquamarine;
+.search_bar {
+   padding: 30px 0;
 }
 
-.section_title_border {
-   box-sizing: border-box;
-   margin-bottom: 20px;
+.search_bar input {
+   padding-right: 0;
+   width: 570px;
+   height: 50px;
 }
 
-.section_title_content {
-   margin-top: 30px;
-   box-sizing: content-box;
+.search_bar button {
+   padding-left: 0;
+   width: 100px;
+   height: 50px;
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 19px;
+   color: #ffffff;
+   background-color: #023047;
 }
 
-.section_text {
-   margin-bottom: 40px;
+.profile {
+   margin: 43px 0 44px;
+   text-align: right;
+   justify-content: space-around;
 }
 
-.section_second {
-   background: #2a8d9e;
-   padding: 10px;
-   margin-bottom: 20px;
+.menu_bar {
+   padding: 13px 0;
 }
 
-.section_title_none {
-   width: 600px;
-   font-size: 1.4em;
-   color: #126a88;
-   padding: 0;
-   margin-bottom: 10px;
-   border: 0px solid #2a8d9e;
-   background: aquamarine;
+.menu {
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.5;
+   list-style-type: none;
+}
+
+.departments img {
+   display: inline-block;
+   margin-right: 5px;
+}
+
+.hero {
+   background: url("../assets/img/bg.png");
+}
+
+.hero_subtitle {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.4;
+   color: #9cdeff;
+}
+
+.hero_title {
+   margin: 225px 35px 225px 135px;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 131.5%;
+   color: #ffffff;
 }
